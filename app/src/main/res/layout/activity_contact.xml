@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/design_default_color_primary"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:hint="Home"
+            app:icon="@android:drawable/ic_input_get" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="About"
+            app:icon="@android:drawable/ic_dialog_info" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Meniu"
+            app:icon="@android:drawable/ic_menu_sort_by_size" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aladin"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:text="Ne puteți urmări și pe:"
+        android:textColor="@android:color/system_accent1_200"
+        android:textSize="34sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="174dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btnFacebook"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_margin="2dp"
+                android:gravity="center"
+                app:icon="@drawable/_282541_fb_social_media_facebook_facebook_logo_social_network_icon" />
+
+            <Button
+                android:id="@+id/btnYoutube"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_margin="2dp"
+                android:gravity="center"
+                app:icon="@drawable/_559760_media_social_video_youtube_icon" />
+
+            <Button
+                android:id="@+id/btnInstagram"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_margin="2dp"
+                android:gravity="center"
+                app:icon="@drawable/_279112_camera_instagram_social_media_instagram_logo_icon" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="398dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aladin"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="Ne puteți contacta la:"
+            android:textColor="@android:color/system_accent1_200"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/btnCall"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="+40754197154"
+            app:icon="@android:drawable/stat_sys_phone_call" />
+
+        <Button
+            android:id="@+id/btnEmail"
+            android:layout_width="263dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:hint="cristinaangela.cornatanu@gmail.com"
+            app:icon="@android:drawable/sym_action_email" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

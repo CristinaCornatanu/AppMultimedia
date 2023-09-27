@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_primary"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:hint="About"
+            app:icon="@android:drawable/ic_dialog_info"
+            app:strokeColor="#0C0C0C" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_margin="1dp"
+            android:hint="Meniu"
+            app:icon="@android:drawable/ic_menu_sort_by_size" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:hint="Contact"
+            app:icon="@android:drawable/ic_dialog_email" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="316dp"
+        android:layout_height="109dp"
+        android:layout_margin="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/aladin"
+        android:gravity="center"
+        android:rotation="-4"
+        android:rotationX="21"
+        android:rotationY="4"
+        android:text="Bine ați venit pe pagina noastră!"
+        android:textColor="@android:color/system_accent1_200"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</LinearLayout>
